@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--FAVICON-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--REMIX ICONS-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+        
+
+        <title>Responsive apps website - Tota</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                
+                <a href="#bas" class="nav__logo">
+                    <img src="assets/img/favicon.png" alt="" width="125px" id="logo-image">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Download</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#steps" class="nav__link">Steps</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#support" class="nav__link">Support</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+                
+                
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--HOME-->
+
+            <section class="bas" id="bas" style="background-image: url('assets/img/back.png');">
+
+                    <div class="bas__data">
+                        <div class="dd"></div>
+                        <h1 class="bas__title">
+                            Your path to learning, <br> your path to success.
+                        </h1>
+                        <p class="bas__description" style="color: hsl(var(--hue), 24%, 32%);">
+                            Your trusted guide on an exciting journey of learning. <br>Explore limitless possibilities,
+                            develop, overcome <br>obstacles and reach new heights with us.
+                        </p>
+                        <a href="#about" class="button button--flex" >
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                
+            </section>
+
+            <!--ABOUT-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img" width="1000">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Create a study space where you belong. 
+                        </h2>
+
+                        <p class="about__description">
+                            CtrlBee servers are organized into themed rooms where 
+                            you can plan, develop and just learn without delay
+                         </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Collaborative learning and interaction.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Convenience and accessibility.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Innovative approach to learning.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Personalized approach.
+                            </p>
+                        </div>
+
+                        <a href="#home" class="button--link button--flex">
+                            Download Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--DOWNLOAD-->
+            <section class="home" id="home" style="background-color: rgb(69, 69, 69);">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+                    <div class="home__data">
+                        <h1 class="home__title" style="color: white;">
+                            <b> Get CtrlBee for android device </b>
+                        </h1>
+                        <p class="home__description" style="color: white;">
+                            Embark on your study. Schedule with our mobile app, then easily 
+                            continue your conversation on your desktop devices. 
+                        </p>
+                        <a href="assets/app/app-release.apk" download="app-release.apk" class="button button--flex">
+                            Download for Mobile Version
+                        </a>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!--STEPS-->
+<section class="steps section container" id="steps">
+    <div class="steps__bg">
+        <h2 class="section__title-center steps__title">
+            Steps to help you use the application correctly
+        </h2>
+        <div class="steps__container grid">
+            <div class="steps__card">
+                <div class="steps__card-number">01</div>
+                <h3 class="steps__card-title">Select date and time</h3>
+                <p class="steps__card-description">
+                    Select a convenient date and time to begin your training. 
+                    Consider your schedule and other commitments to create optimal 
+                    conditions for concentration and effective learning.
+                </p>
+            </div>
+            <div class="steps__card">
+                <div class="steps__card-number">02</div>
+                <h3 class="steps__card-title">Write a study plan</h3>
+                <p class="steps__card-description">
+                    Create a detailed and structured training plan, defining goals, 
+                    objectives and deadlines for their implementation. Break your 
+                    training into small steps and set priorities for maximum results.
+                </p>
+            </div>
+            <div class="steps__card">
+                <div class="steps__card-number">03</div>
+                <h3 class="steps__card-title">Select a period of time for study</h3>
+                <p class="steps__card-description">
+                    Choose a lesson duration that suits your individual needs and 
+                    abilities. Consider your concentration and energy throughout the 
+                    day to determine the best time frame for successful study.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+            
+            <section class="bas" id="support" style="background-image: url('assets/img/back_sup.png');" id="support">            
+                    <div class="bas__data">
+                        <div class="dd"></div>
+                        <h1 class="bas__title" style="color: white;">
+                            Help Center
+                        </h1>
+                    </div>
+            </section>
+
+<section class="questions section" id="faqs">
+    <h2 class="section__title-center questions__title container">
+        Some common questions <br> were often asked
+    </h2>
+
+    <div class="questions__container container grid">
+        <div class="questions__group">
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        What is the main objective of CtrlBee?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        The main objective of CtrlBee is to create a collaborative learning 
+                        environment where users can connect, share knowledge, and engage in 
+                        meaningful learning experiences together.
+                    </p>
+                </div>
+            </div>
+
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        Can I access CtrlBee from mobile devices?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        Yes, CtrlBee is accessible from mobile devices 
+                        through its responsive website or dedicated mobile app, 
+                        allowing users to learn and collaborate on the go.
+                    </p>
+                </div>
+            </div>
+
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        Are there any fees associated with using CtrlBee, or is it free to use?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        CtrlBee offers both free and premium membership options. While basic features are available 
+                        to all users at no cost, premium members enjoy additional benefits such as ad-free browsing, 
+                        advanced collaboration tools, and access to exclusive content.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions__group">
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        Is there a support team available to assist users with any issues or queries?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        CtrlBee has a dedicated support team available to assist users with any issues, 
+                        questions, or feedback they may have. Users can reach out to the support team 
+                        through the platform's contact channels for assistance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        What is CtrlBee and what does it offer?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        CtrlBee is an innovative online platform designed to enhance collaborative 
+                        learning experiences. It provides users with tools and resources to connect 
+                        with others, share knowledge, and engage in productive learning activities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="questions__item">
+                <header class="questions__header">
+                    <i class="ri-add-line questions__icon"></i>
+                    <h3 class="questions__item-title">
+                        What kind of resources does CtrlBee offer for learning?
+                    </h3>
+                </header>
+
+                <div class="questions__content">
+                    <p class="questions__description">
+                        CtrlBee offers various resources for learning, including study materials, articles, videos, 
+                        quizzes, and interactive tutorials, curated by experts and contributors from the community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+            
+        <!--FOOTER-->
+        <footer class="footer section" >
+            <div class="footer__container container grid" >
+                <div class="footer__content">
+                    <a href="#" class="footer__logo" id="logo-image">
+                        <img src="assets/img/favicon.png" alt="CtrlBee" width="125px">
+                    </a>
+                
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+                    <div class="footer__subscribe">
+                        <button class="button button--flex footer__button">
+                            <a href="https://forms.gle/muh2p7Tr2xiKqLDm6" style="color: #E9E9E9;" target="_blank"> Send the message</a>
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+                
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Almaty, Kaskelen</li>
+                        <li class="footer__information">Abylaykhana 1/1</li>
+                        <li class="footer__information">123-456-789</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+7 (707) 621 2412 <br> email: @zhanaytogzhan@mail.ru</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy" style="margin-top: -20px;">&#169; STELLA</p>
+        </footer>
+        
+        <!--SCROLL UP-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <!--SCROLL REVEAL-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--MAIN JS-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
